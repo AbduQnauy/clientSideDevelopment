@@ -14,7 +14,10 @@
     background-color:#fff;
     height:350px;
 }
-.header .slider .intro { height:inherit;padding-top:128px}
+.header .slider .intro {
+     height:inherit;
+     padding-top:128px
+}
 .header .slider .intro h2,
 .header .slider .intro button{color:#00d}
 
