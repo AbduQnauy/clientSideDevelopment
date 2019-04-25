@@ -1,0 +1,317 @@
+/* 
+1) 445 lines
+2) 409 lines
+3) 364 line
+4) 336 lines 
+5) 330 lines
+6) 305 lines
+*/
+/* start Main Rules */
+.container{
+    width:auto;
+    margin-right:5px;
+    margin-left:5px;
+}
+.clearfix{clear:both;}
+/* End Main Rules */
+
+/* Start header */
+.header .slider{
+    background-image: url("../imgz/img2.jpeg");
+    background-size: cover;
+    background-color:#fff;
+    height:350px;
+}
+.header .slider .intro { height:inherit;padding-top:128px}
+.header .slider .intro h2,
+.header .slider .intro button{color:#00d}
+
+.header .slider .intro h2 {
+    margin:0 auto;
+    font-size: 30px;
+    width:750px;
+    border-top:#00f solid 3px;
+    border-bottom:#00f solid 3px;
+    padding:2px 0;
+    margin-bottom:5px 
+}
+
+.header .slider .intro button{
+    background: none;
+    font-size: 20px;
+    border:solid #fff 2px;
+    font-weight: bold;
+    padding: 5px 40px
+}
+.header .navbar{
+    background-color:rgb(238, 222, 3);
+    color:rgb(2, 54, 6)
+}
+.header .navbar h2 span{color:rgb(139, 25, 173);}
+
+.header .navbar ul{
+    list-style-type:none;
+    padding-left:0;
+    float:right
+}
+.header .navbar ul li{padding:10px}
+.header .navbar ul li a{
+    color:rgb(250, 10, 10);
+    text-decoration: none
+}
+.header .navbar ul li a:hover,
+.header .navbar ul li .first
+{color:rgb(50, 126, 7)}
+
+.header .navbar ul li a:active{color:rgb(55, 33, 182)}
+/* End header   */
+ 
+/*Start feature */
+.feature .feat{
+        width:33.3333333333%;
+        height:150px;
+        }
+.feature h3{padding-top:10px}
+.feature p{padding-bottom:20px}
+/*End feature */
+
+/* Start about me */
+.about{ margin-top:50px;margin-bottom:50px}
+.about .image{float:left;width:40%;height:100%;position: relative;top:35px}
+.about .image img{width:100%;height:auto}
+.about .info{
+    width:56%;
+    float:left;
+    margin:1% 0 0 40px;
+}
+.about .info > p:last-of-type{margin-top:0;margin-bottom:0}
+.about .info .hobbies{ margin-top:0}
+.hobbies .hobby{
+    width:47%;
+    margin: 0 3.0% 0 0;
+    height:auto;
+    overflow: hidden;
+}
+.hobbies .hobby .icon{
+    width:15%;
+    height: 15%;
+    margin:20px 3% 0 0
+}
+.hobbies .hobby .icon img{width:100%;height:inherit}
+.hobbies .hobby .icon i{width:100%;height:inherit;color:#000}
+.hobbies .hobby .icon i:hover{color:#999}
+.hobbies .hobby .article{
+    width:82%;
+    height: 85%
+}
+.hobbies .hobby .article p{padding-bottom:10px}
+/* End about me */
+
+/* Start skills */
+.my-skill{ padding-top:30px;padding-bottom:30px}
+.my-skill  > p:last-of-type{margin-top:10px}
+.my-skill .skill,
+.my-skill .pro{ 
+    width:46%;
+    margin:2%
+}
+.my-skill .pro .technique div ,
+.my-skill .pro .technique div span
+{border-radius: 10px}
+.my-skill .pro .technique h4{color:#555}
+.my-skill .pro .technique div{
+    background-color:#f2f2f2;
+    height:25px ;
+}
+.my-skill .pro .technique div span{
+    background-color:#0f0;
+    text-align:right;
+    height: 100%;
+    display:block;
+    line-height:25px;
+    color:#fff;
+    font-weight:900
+}
+/* End skills */
+
+/* Start resume */
+.resume{
+    background-color:rgb(4, 235, 252);
+    padding-top:50px;
+    padding-bottom:70px; 
+}
+.resume h2{ font-weight:900;color:#f50}
+.resume p{ padding:0 40px}
+button{margin-top:20px}
+/* End resume */
+
+/* Start education */
+.my-edu{ padding-top:30px;padding-bottom:30px }
+.my-edu hr{margin:20px 0;color:#0f0}
+
+.my-edu .edu  > p:last-of-type,
+.my-edu .exp  > p:last-of-type
+{margin-top:10px}
+
+.my-edu .edu,
+.my-edu .edux
+{width:49%}
+
+.my-edu .exp,
+.my-edu .expx
+{width:49%}
+
+.my-edu .edux,
+.my-edu .expx{
+    margin-left:2%
+}
+.my-edu .edux h3{
+    margin-top:70px;
+    margin-bottom:5px
+}
+.my-edu .edux span{
+    display:block;
+    margin-bottom: 5px
+}
+.my-edu .edux span:first-of-type{color:#999}
+.my-edu .edux span:last-of-type{
+    color:#fff;
+    background-color:#20cc70;
+    width:10%;
+    display:inline-block;
+    padding:5px 10px
+}
+/* End education */
+
+/* Start testimonial */
+.testimonial{
+    background-color:rgb(4, 62, 252);
+    padding-top:50px;
+    padding-bottom:70px; 
+}
+.testimonial q{
+    line-height:2;
+    font-size:18px;
+    font-style:italic;
+    font-weight: 600;
+    color:#eee;
+}
+.testimonial h3{
+   color:rgb(31, 204, 216)
+}
+.testimonial ul{
+    list-style:none;
+    padding-left:0;
+    text-align: center
+}
+.testimonial ul li{
+    border:2px solid #eee;
+    border-radius:50%;
+    display:inline-block;
+    
+    width:15px;
+    height:15px;
+    cursor:pointer
+}
+.testimonial ul li.active,
+.testimonial ul li:hover{
+    background-color:#eee
+}
+/* End testimonial */
+
+/* Start portf */
+.portf{
+    padding-top:50px;
+    padding-bottom:70px;
+    text-align: center
+}
+.portf p{
+    color:#666;
+    margin-bottom:30px
+}
+.portf .works div{width:33.333333%;margin-bottom:10px}
+.portf .works div img{
+    margin:10px;
+    width:94%;
+    padding: 3px;
+    border: solid 2px #ccc;
+}
+/* End portf */
+
+/* Start contact */
+.contact{background-color:#29032e;
+         padding-top:40px;
+         padding-bottom:70px}
+.contact h2{ color:#ccc}
+.contact h2,
+.contact p{padding-left:10px}
+.contact p{color:#6a6e71;}
+.contact .info{width:48%}
+.contact .info strong{color:#ccc}
+.contact .form{
+    width:48%;
+    margin:0 0 0 4%
+}
+.contact .form label{
+    display:block;
+    color:#ccc;
+    margin: 10px 0
+}
+.contact .form input,
+.contact .form textarea{
+    background-color:#ccc;
+    border:none;
+    width:60%;
+    border-radius: 2px;
+    padding:8px;
+    color:#000
+}
+.contact .form textarea{height:150px}
+.contact .form input[type="submit"]{
+    margin:10px 0;
+    width:15%;
+    cursor: pointer;
+    background-color:#f50;
+    color:#fff
+}
+/* End contact */
+
+/* Start foot */
+.foot{
+    background-color:#f50;
+    color:#fff;
+    padding:10px;
+    text-align:center
+ }
+.foot ul{
+    list-style:none;
+    padding-left:0;
+    margin:10px 0 0
+}
+.foot ul li{display:inline-block;cursor: pointer}
+.foot ul li i{color:#fff;padding:5px}
+.foot ul li i:hover{color:#333}
+/* .foot ul li img{
+    width:24px;
+    border-radius: 50%
+}  */
+/* End foot */
+
+/* Start my framework */
+.my-button{
+    background:none;
+    color:#909;
+    padding:15px 30px;
+    border-radius: 5px;
+    border:1px solid #909;
+    font-weight:900;
+    cursor: pointer
+}
+.fl-left{float:left}
+p{line-height:1.7;color:#333}
+.txt-up{text-transform: uppercase}
+.txt-cap{text-transform: capitalize}
+.txt-cntr{text-align:center}
+h2{color:#777}
+.ovr-flw-hdn{overflow:hidden}
+/* End my frameworlk */
